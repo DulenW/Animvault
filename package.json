@@ -1,0 +1,24 @@
+{
+  "name": "animvault",
+  "version": "1.0.0",
+  "description": "Stremio addon for animated movies, classic cartoons, and animated series — powered by TMDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-cache": "^5.1.2",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["stremio", "addon", "animation", "cartoons", "anime", "tmdb"],
+  "license": "MIT"
+}
