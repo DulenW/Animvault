@@ -60,4 +60,9 @@ module.exports = {
     adult: false,
     configurable: false,
   },
+
+  stremioAddonsConfig: {
+    issuer: 'https://stremio-addons.net',
+    signature: 'eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..poqIfPse0wMu6tH3tvXRxw.RlatyAt3NJOlP88DB_jjbrAgIJK-5IZq9HykUkD4q1yiKvcmLksZ7i0i_aedVh_BM55NfeI9-RvA3eyu7wCZE_tuq8oMrLFnZwXuICLClpORVutzMj4Sds2h-BNGDtQF.Y3z2DFMgfclKU_ccQbRIXA',
+  },
 };
